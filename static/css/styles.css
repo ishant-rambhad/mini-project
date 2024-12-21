@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+body{
+  color: #fff;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  background-image: url(ai1.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 35px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+nav{
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 250px;
+}
+.logo a{
+  font-size: 10px;
+  text-decoration: none;
+}
+span{
+  color: #f9004d;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 15px;
+}
+nav ul li a{
+  text-decoration: none;
+  transition: 0.5s;
+}
+nav ul li a:hover{
+  color: #f9004d;
+}
+.login{
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 18px;
+}
+.btn{
+  background: #f8f4f4;
+  border-radius: 6px;
+  padding: 9px 25px;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 18px;
+}
+
+.background-video {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  min-width: 100%; /* Cover entire viewport width */
+  min-height: 100%; /* Cover entire viewport height */
+  z-index: -1; /* Place the video behind other content */
+}
+
+
+.content{
+  margin-top: 10%;
+  max-width: 600px;
+  color: #f8f4f4;
+}
+.content h2{
+  font-size: 60px
+}
+.content p{
+  margin-top: 10px;
+  line-height: 25px;
+}
+a{
+  color: #fff;
+}
+.link {
+  margin-top: 30px;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+.hire{
+  color: #fffafa;
+  text-decoration: none;
+  background: #fff;
+  padding: 9px 25px;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.link .hire:hover{
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.ChatInput-module__chatInputWrapper___UT5Wn {
+  position: relative;
+  width: 100%;
+  margin-top: auto;
+  padding: 15px 25px 15px 20px;
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  background: #000000;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.ChatInput-module__chatInputWrapper___UT5Wn.ChatInput-module__empty___zgU04{
+  margin-top: unset;
+}
+elements.style{
+  height: 45px;
+  line-height: 50px;
+  width: 100%;
+}
+textarea {
+  overflow: auto;
+  resize: vertical;
+}
+.page-container {
+  max-height: 100vh; /* Adjust max height if necessary */
+  overflow-y: auto;
+}
+#second-page {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  -webkit-transition: top 0.5s;
+  transition: top 0.5s;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.image-container img {
+  
+  margin: 10px;
+}
+.second-page-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  background-color: #745e5e; /* Adjust color as needed */
+  padding: 10px; /* Adjust padding as needed */
+  text-align: center;
+}
+.footer1 {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
